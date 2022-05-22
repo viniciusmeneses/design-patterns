@@ -1,0 +1,17 @@
+{
+  "extends": ["alloy", "alloy/typescript"],
+  "env": {
+    "node": true,
+    "browser": true,
+    "es2021": true
+  },
+  "rules": {
+    "eqeqeq": ["error", "always", { "null": "ignore" }],
+    "max-params": "off",
+    "no-eq-null": "off",
+    "@typescript-eslint/method-signature-style": ["error", "method"],
+    "@typescript-eslint/no-parameter-properties": "off",
+    "@typescript-eslint/no-namespace": "off",
+    "@typescript-eslint/no-invalid-void-type": "off"
+  }
+}

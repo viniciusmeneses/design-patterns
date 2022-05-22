@@ -1,0 +1,11 @@
+{
+  "code-runner.executorMap": {
+    "typescript": "clear && npx ts-node-dev --files --transpile-only",
+  },
+  "editor.tabSize": 2,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "eslint.validate": ["javascript", "typescript"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}
