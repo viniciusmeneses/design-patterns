@@ -25,9 +25,10 @@ const address1 = new Address("Av. Brasil", 15);
 const person1 = new Person("Luiz", 30);
 person1.addAddress(address1);
 
-person1.addresses[0].street = "Outro";
-
 const person2 = person1.clone();
+
+person1.addresses[0].street = "Outro";
 person2.name = "João";
+
 console.log(person2);
 console.log(person2.addresses);
